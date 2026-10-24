@@ -1,0 +1,33 @@
+/* Basic reset to standardize margins and padding across browsers */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Child-friendly body styling: readable system fonts, bright background, centered content */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  background-color: #f0fdf4; /* Bright light mint green */
+  color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* App container area styling */
+#app {
+  margin-top: 1.5rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
