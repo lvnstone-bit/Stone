@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport meta tag for mobile responsive scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Quiz</title>
+  <!-- Stylesheet link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Main container where quiz app content is rendered -->
+  <main id="app">
+    <h1>Welcome to Kids Quiz!</h1>
+    <p class="subtitle">Pick a subject to start!</p>
+
+    <!-- Subject selection buttons -->
+    <div class="subject-buttons">
+      <button type="button" id="maths-btn" class="subject-btn btn-maths" data-subject="maths">
+        <span class="emoji" aria-hidden="true">🔢</span> Mathematics
+      </button>
+      <button type="button" id="english-btn" class="subject-btn btn-english" data-subject="english">
+        <span class="emoji" aria-hidden="true">📚</span> English
+      </button>
+    </div>
+
+    <!-- Live message area for user feedback -->
+    <p id="subject-message" class="subject-message" aria-live="polite"></p>
+  </main>
+
+  <!-- JavaScript file link -->
+  <script src="app.js"></script>
+</body>
+</html>
